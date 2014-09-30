@@ -6,8 +6,13 @@ import java.util.ArrayList;
  * Created by SAMSUNG on 23-09-2014.
  */
 public class ControladorPostulante {
-
+    private static ControladorPostulante instancia=new ControladorPostulante();
     private ArrayList<Postulantes> postulantes;
+
+    public static ControladorPostulante getInstancia(){
+        return instancia;
+    }
+    
     public ControladorPostulante (){
         postulantes=new ArrayList<Postulantes>();
     }
@@ -29,7 +34,10 @@ public class ControladorPostulante {
         return postulantes.size();
     }
 
-
-
-
+    @Override
+    public String toString() {
+        return "ControladorPostulante{" +
+                "postulantes=" + postulantes +
+                '}';
+    }
 }

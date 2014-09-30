@@ -8,7 +8,7 @@ public class Carrera {
     private int Cupos;
     private String Codigo;
 
-    public String getNombre()
+    public String getNombre(){
         return Nombre;
     }
 

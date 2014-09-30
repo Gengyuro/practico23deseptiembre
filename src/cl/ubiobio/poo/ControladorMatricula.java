@@ -1,5 +1,7 @@
 package cl.ubiobio.poo;
 
+import javafx.geometry.Pos;
+
 import java.util.ArrayList;
 
 /**
@@ -12,10 +14,24 @@ public class ControladorMatricula {
     public ControladorMatricula() {
     }
 
-    public ControladorMatricula(ArrayList<Matricula> matriculados) {
-        this.matriculados = matriculados;
+    public void AgregarMatricula(Matricula matricula){
+
     }
 
+    public void ObtienePostulantesPorCarrera(Carrera car){
 
+    }
+
+    public void Matriculados(){
+
+    }
+
+    public void ObtieneLugar(Postulantes est){
+
+    }
+
+    public void EstaMatriculado(Postulantes est){
+
+    }
 
 }
